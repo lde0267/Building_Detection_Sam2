@@ -1,0 +1,4 @@
+https://github.com/facebookresearch/sam2
+
+여기서 sam2모델을 로컬로 다운받으세요.
+sam2.1_hiera_base_plus.pt를 사용하였습니다. 
