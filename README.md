@@ -15,18 +15,18 @@
 
 ## 폴더 구조 예시
 ├─ checkpoints/    
-│ └─ sam2.1_hiera_base_plus.pt # SAM2 모델 체크포인트
-├─ data/
-│ ├─ each_orthophoto/each_ortho/ # TIFF 정사영상
-│ ├─ each_digitalMap/each_gt/ # 수치지도 폴리곤 Shapefile
-│ └─ output/
-│   ├─ result1/ # SAM2 결과 저장 폴더
-│   └─ result1_cleaned/ # 후처리 완료 폴더
-└─ src/
-├─ applyModel/ # 모델 적용 및 처리 스크립트
-├─ preprocess/ # 전처리 스크립트
+│ └─ sam2.1_hiera_base_plus.pt # SAM2 모델 체크포인트  
+├─ data/  
+│ ├─ each_orthophoto/each_ortho/ # TIFF 정사영상   
+│ ├─ each_digitalMap/each_gt/ # 수치지도 폴리곤 Shapefile   
+│ └─ output/   
+│   ├─ result1/ # SAM2 결과 저장 폴더   
+│   └─ result1_cleaned/ # 후처리 완료 폴더   
+└─ src/   
+├─ applyModel/ # 모델 적용 및 처리 스크립트   
+├─ preprocess/ # 전처리 스크립트   
 └─ postprocess/ # 후처리 스크립트
-
+  
 ## 주요 패키지
 rasterio (TIFF 영상 처리 및 좌표 변환)
 geopandas (벡터 지리 정보 처리)
