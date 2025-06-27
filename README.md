@@ -15,10 +15,15 @@
 
 ## 폴더 구조 예시
 ├─ checkpoints/
+
 │ └─ sam2.1_hiera_base_plus.pt # SAM2 모델 체크포인트
+
 ├─ data/
+
 │ ├─ each_orthophoto/each_ortho/ # TIFF 정사영상
+
 │ ├─ each_digitalMap/each_gt/ # 수치지도 폴리곤 Shapefile
+
 │ └─ output/
 │   ├─ result1/ # SAM2 결과 저장 폴더
 │   └─ result1_cleaned/ # 후처리 완료 폴더
