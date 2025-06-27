@@ -14,7 +14,7 @@
 - 시각화 기능: 이미지 위에 건물 마스크와 Box Prompt 오버레이 표시  
 
 ## 폴더 구조 예시
-├─ checkpoints/
+├─ checkpoints/    
 │ └─ sam2.1_hiera_base_plus.pt # SAM2 모델 체크포인트
 ├─ data/
 │ ├─ each_orthophoto/each_ortho/ # TIFF 정사영상
