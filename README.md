@@ -3,6 +3,8 @@
 ## 프로젝트 개요
 이 프로젝트는 정사영상(Orthophoto)과 수치지도를 기반으로, SAM2(Segment Anything Model 2)를 활용해 건물 객체를 자동으로 추출하는 워크플로우를 구현합니다.  
 수치지도의 폴리곤 정보를 바탕으로 이미지 내 관심 영역(Box Prompt)를 생성하고, 이를 SAM2에 입력하여 건물 마스크를 생성 및 후처리하여 최종 건물 객체를 얻습니다.
+![image](https://github.com/user-attachments/assets/84dfb425-6378-424d-a142-3d94a3266dc4)
+
 
 ## 주요 기능
 - TIFF 정사영상 로드 및 메타데이터(좌표변환, CRS) 추출  
