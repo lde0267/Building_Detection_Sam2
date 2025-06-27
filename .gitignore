@@ -1,0 +1,24 @@
+# 무거운 데이터와 체크포인트 제외
+checkpoints/
+data/
+
+# 구조만 유지하고 내용은 제외
+!data/
+!data/each_digitalMap/
+!data/each_orthophoto/
+!data/output/
+data/**/*.tif
+data/**/*.shp
+data/**/*.shx
+data/**/*.dbf
+data/**/*.prj
+data/**/*.cpg
+
+# Python 불필요한 캐시 제거
+__pycache__/
+*.pyc
+*.pyo
+
+# 기타
+.vscode/
+.env
